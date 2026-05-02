@@ -1,0 +1,6 @@
+/Users/mcbook/book_api/book_api/build/CMakeFiles/book_api.dir
+/Users/mcbook/book_api/book_api/build/CMakeFiles/edit_cache.dir
+/Users/mcbook/book_api/book_api/build/CMakeFiles/rebuild_cache.dir
+/Users/mcbook/book_api/book_api/build/test/CMakeFiles/book_api_test.dir
+/Users/mcbook/book_api/book_api/build/test/CMakeFiles/edit_cache.dir
+/Users/mcbook/book_api/book_api/build/test/CMakeFiles/rebuild_cache.dir

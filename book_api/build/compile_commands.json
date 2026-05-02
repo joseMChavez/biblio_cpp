@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/mcbook/book_api/book_api/build",
+  "command": "/usr/bin/c++  -I/Users/mcbook/book_api/book_api -I/opt/homebrew/opt/sqlite3/include -I/Users/mcbook/book_api/book_api/models -isystem /opt/homebrew/include -g -std=c++20 -arch arm64 -o CMakeFiles/book_api.dir/main.cc.o -c /Users/mcbook/book_api/book_api/main.cc",
+  "file": "/Users/mcbook/book_api/book_api/main.cc",
+  "output": "CMakeFiles/book_api.dir/main.cc.o"
+},
+{
+  "directory": "/Users/mcbook/book_api/book_api/build",
+  "command": "/usr/bin/c++  -I/Users/mcbook/book_api/book_api -I/opt/homebrew/opt/sqlite3/include -I/Users/mcbook/book_api/book_api/models -isystem /opt/homebrew/include -g -std=c++20 -arch arm64 -o CMakeFiles/book_api.dir/controllers/BookController.cpp.o -c /Users/mcbook/book_api/book_api/controllers/BookController.cpp",
+  "file": "/Users/mcbook/book_api/book_api/controllers/BookController.cpp",
+  "output": "CMakeFiles/book_api.dir/controllers/BookController.cpp.o"
+},
+{
+  "directory": "/Users/mcbook/book_api/book_api/build",
+  "command": "/usr/bin/c++  -I/Users/mcbook/book_api/book_api -I/opt/homebrew/opt/sqlite3/include -I/Users/mcbook/book_api/book_api/models -isystem /opt/homebrew/include -g -std=c++20 -arch arm64 -o CMakeFiles/book_api.dir/repositories/BookRepository.cpp.o -c /Users/mcbook/book_api/book_api/repositories/BookRepository.cpp",
+  "file": "/Users/mcbook/book_api/book_api/repositories/BookRepository.cpp",
+  "output": "CMakeFiles/book_api.dir/repositories/BookRepository.cpp.o"
+},
+{
+  "directory": "/Users/mcbook/book_api/book_api/build",
+  "command": "/usr/bin/c++  -I/Users/mcbook/book_api/book_api -I/opt/homebrew/opt/sqlite3/include -I/Users/mcbook/book_api/book_api/models -isystem /opt/homebrew/include -g -std=c++20 -arch arm64 -o CMakeFiles/book_api.dir/services/BookService.cpp.o -c /Users/mcbook/book_api/book_api/services/BookService.cpp",
+  "file": "/Users/mcbook/book_api/book_api/services/BookService.cpp",
+  "output": "CMakeFiles/book_api.dir/services/BookService.cpp.o"
+},
+{
+  "directory": "/Users/mcbook/book_api/book_api/build/test",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/include -g -std=c++20 -arch arm64 -o CMakeFiles/book_api_test.dir/test_main.cc.o -c /Users/mcbook/book_api/book_api/test/test_main.cc",
+  "file": "/Users/mcbook/book_api/book_api/test/test_main.cc",
+  "output": "test/CMakeFiles/book_api_test.dir/test_main.cc.o"
+}
+]
