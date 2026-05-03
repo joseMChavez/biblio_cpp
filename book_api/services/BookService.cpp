@@ -14,10 +14,9 @@ Result<Book> BookService::create(const Book& book) {
 
 Result<bool> BookService::remove(int id) {
     return repo_->remove(id);
-<<<<<<< HEAD
+ 
 }
 Result<bool> BookService::update(const Reader& item) {
     return repo_->update(item);
-=======
->>>>>>> de6f692cc521b603432362c4212f7a0d55aa9687
+ 
 }
