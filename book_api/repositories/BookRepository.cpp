@@ -1,11 +1,9 @@
 #include "repositories/BookRepository.h"
  #include <drogon/drogon.h>
 BookRepository::BookRepository(const std::string& dbPath) {
-<<<<<<< HEAD
  
-=======
   LOG_INFO << "Abriendo DB en: " << dbPath  ;
->>>>>>> de6f692cc521b603432362c4212f7a0d55aa9687
+ 
     
     int rc = sqlite3_open(dbPath.c_str(), &db_);
     if (rc != SQLITE_OK) {
@@ -13,15 +11,15 @@ BookRepository::BookRepository(const std::string& dbPath) {
         sqlite3_close(db_);
         throw std::runtime_error("No se pudo abrir la base de datos: " + err);
     }
-<<<<<<< HEAD
+ 
    
     initDb();
-=======
+ 
     
     LOG_INFO << "DB abierta OK, inicializando...";
     initDb();
      LOG_INFO << "DB inicializada OK";
->>>>>>> de6f692cc521b603432362c4212f7a0d55aa9687
+ 
 }
 BookRepository::~BookRepository() {
     sqlite3_close(db_);
@@ -149,7 +147,7 @@ Result<Book> BookRepository::create(const Book& book) {
     return Result<Book>::ok(created);
  
 }
-<<<<<<< HEAD
+ 
 Result<bool> BookRepository::update(const Reader& item)
 {
     std::lock_guard<std::mutex> lock(mutex_);
@@ -171,9 +169,7 @@ Result<bool> BookRepository::update(const Reader& item)
     sqlite3_finalize(stmt);
     return Result<bool>::ok(true);
 }
-=======
-
->>>>>>> de6f692cc521b603432362c4212f7a0d55aa9687
+ 
 Result<bool> BookRepository::remove(int id) {
     try
     {
