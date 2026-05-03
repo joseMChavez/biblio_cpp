@@ -13,7 +13,10 @@ public:
      Result<Book> getById(int id) override;
      Result<Book> create(const Book& libro) override;
      Result<bool> remove(int id) override;
+<<<<<<< HEAD
      Result<bool> update(const Reader& item) override;
+=======
+>>>>>>> de6f692cc521b603432362c4212f7a0d55aa9687
 
 private:
      

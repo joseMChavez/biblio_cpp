@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/mcbook/book_api/book_api/build/cmake_install.cmake",
+		"/Users/mcbook/book_api/book_api/build/test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

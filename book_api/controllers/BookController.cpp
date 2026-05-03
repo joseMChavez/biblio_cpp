@@ -100,6 +100,7 @@ void BookController::create(const HttpRequestPtr& req,
     cb(resp);
     }
 }
+<<<<<<< HEAD
 void BookController::update(const HttpRequestPtr& req,
                               std::function<void(const HttpResponsePtr&)>&& cb) {
     auto body = req->getJsonObject();
@@ -133,6 +134,8 @@ void BookController::update(const HttpRequestPtr& req,
     cb(resp);
     }
 }
+=======
+>>>>>>> de6f692cc521b603432362c4212f7a0d55aa9687
 void BookController::remove(const HttpRequestPtr& req,
                               std::function<void(const HttpResponsePtr&)>&& cb,
                               int id) {
